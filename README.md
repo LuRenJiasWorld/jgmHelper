@@ -3,7 +3,7 @@
 
 > 腾讯游戏《家国梦》自动收集金币+运货辅助工具
 
-Author: LuRenJiasWorld <loli@lurenjia.in>
+Author: LuRenJiasWorld \<loli@lurenjia.in\>
 
 Initial Release Date: 20191005
 
@@ -19,7 +19,7 @@ Current Version: v0.0.1
 ## 技术细节
 - 设备控制使用adb工具实现(Android Debugging Bridge)
 - GUI使用Tkinter实现
-- 暴力遍历用户打下每个关键点，模拟点击与滑动
+- 暴力遍历用户打下的每个关键点，模拟点击与滑动
 
 ## 使用截图
 
