@@ -63,6 +63,9 @@ class Work:
 		frame.geometry("480x800+400+100")
 		frame.resizable(width=False, height=False)
 		frame.configure(bg="#ececec")
+		frame.attributes('-topmost', 1)
+		frame.update()
+		frame.attributes('-topmost', 0)
 
 		# 提示文本
 		label = tkinter.Label(
