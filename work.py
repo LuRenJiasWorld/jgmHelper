@@ -265,7 +265,7 @@ class Work:
 
 	# 工作流
 	def work(self):
-		i = 0
+		i =
 		try:
 			self.__empty_dir()
 			self.__snapshot_file = self.__snapshot()
@@ -273,8 +273,8 @@ class Work:
 
 			if self.__config_status == True:
 				while True:
-					print("第{}轮开始：".format(i))
 					i += 1
+					print("第{}轮开始：".format(i))
 					self.__click_home()
 					self.__drag_item()
 
