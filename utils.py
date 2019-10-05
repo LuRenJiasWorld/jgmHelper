@@ -44,11 +44,11 @@ def check_connection():
 
 	try:
 		if exception is None:
-			match = re.findall(r"[\S]+\t[a-z]+", out)
+			match = re.findall(r"([\S]+)\t(device)", out)
 			if len(match) == 0:
 				raise TypeError("没有设备连接")
 			else:
-				return match[0]
+				return match[0][0]
 		else:
 			raise OSError("执行命令失败")
 

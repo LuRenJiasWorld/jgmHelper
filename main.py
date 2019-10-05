@@ -18,7 +18,7 @@ if __name__ == "__main__":
 					time.sleep(1)
 			else:
 				break
-		print("连接成功，设备ID为{}".format(check_connection().split("\t")[0]))
+		print("连接成功，设备ID为{}".format(check_connection()))
 		Work().work()
 	else:
 		print("没有找到adb命令，请安装adb命令行工具后重试")
