@@ -23,9 +23,9 @@ Current Version: v0.0.1
 
 ## 使用截图
 
-![](/Users/lurenjiasworld/Documents/Coding/Python/jgmHelper/snapshots/1.jpg)
+![](https://github.com/LuRenJiasWorld/jgmHelper/raw/master/snapshots/1.jpg)
 
-![](/Users/lurenjiasworld/Documents/Coding/Python/jgmHelper/snapshots/2.jpg)
+![](https://github.com/LuRenJiasWorld/jgmHelper/raw/master/snapshots/2.jpg)
 
 ## TODO
 
