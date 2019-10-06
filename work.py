@@ -265,7 +265,7 @@ class Work:
 
 	# 工作流
 	def work(self):
-		i =
+		i = 0
 		try:
 			self.__empty_dir()
 			self.__snapshot_file = self.__snapshot()
